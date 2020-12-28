@@ -31,7 +31,7 @@
     is-absolute "^1.0.0"
     is-negated-glob "^1.0.0"
 
-"@ensdomains/ens@^0.4.0", "@ensdomains/ens@^0.4.4":
+"@ensdomains/ens@^0.4.4":
   version "0.4.5"
   resolved "https://registry.yarnpkg.com/@ensdomains/ens/-/ens-0.4.5.tgz#e0aebc005afdc066447c6e22feb4eda89a5edbfc"
   integrity sha512-JSvpj1iNMFjK6K+uVl4unqMoa9rf5jopb8cya5UGBWz23Nw8hSNT7efgUx4BTlAPAgpNlEioUfeTyQ6J9ZvTVw==
@@ -42,7 +42,7 @@
     testrpc "0.0.1"
     web3-utils "^1.0.0-beta.31"
 
-"@ensdomains/resolver@^0.2.0", "@ensdomains/resolver@^0.2.4":
+"@ensdomains/resolver@^0.2.4":
   version "0.2.4"
   resolved "https://registry.yarnpkg.com/@ensdomains/resolver/-/resolver-0.2.4.tgz#c10fe28bf5efbf49bff4666d909aed0265efbc89"
   integrity sha512-bvaTH34PMCbv6anRa9I/0zjLJgY4EuznbEMgbV77JBCQ9KNC46rzi0avuxpOfu+xDjPEtSFGqVEOr5GlUSGudA==
@@ -736,7 +736,7 @@
     crypto-js "^3.1.9-1"
     debug "^4.1.0"
 
-"@truffle/contract@^4.2.12", "@truffle/contract@^4.3.3", "@truffle/contract@^4.3.4":
+"@truffle/contract@^4.2.12", "@truffle/contract@^4.3.3":
   version "4.3.4"
   resolved "https://registry.yarnpkg.com/@truffle/contract/-/contract-4.3.4.tgz#4113d32950f117fd20225b755854a67accbe4010"
   integrity sha512-6I62y+6z5gqvbYd6Vk9wWzmDUIbGdWAPNtqWA4W3J6hR62aa3+JUkPVIO8FxSidQbpOBDMRdFQl9CI+MfY0bxQ==
@@ -769,20 +769,6 @@
     highlight.js "^10.4.0"
     highlightjs-solidity "^1.0.20"
 
-"@truffle/deployer@^3.2.5":
-  version "3.2.6"
-  resolved "https://registry.yarnpkg.com/@truffle/deployer/-/deployer-3.2.6.tgz#83a8f268d5ea387ac58a2cf6432576a76ccdf6ac"
-  integrity sha512-k/NJwHNDZsaT9oxvmmzfO8h5X3Mhrgo6mnHZC4MSKVO5doc4a3eRebumO9nSvTIBzL9habXO0hd5J+9nwn5WcQ==
-  dependencies:
-    "@ensdomains/ens" "^0.4.0"
-    "@ensdomains/resolver" "^0.2.0"
-    "@truffle/contract" "^4.3.4"
-    "@truffle/expect" "^0.0.15"
-    emittery "^0.4.0"
-    eth-ens-namehash "^2.0.8"
-    ethereum-ens "^0.8.0"
-    web3-utils "1.2.9"
-
 "@truffle/error@^0.0.11":
   version "0.0.11"
   resolved "https://registry.yarnpkg.com/@truffle/error/-/error-0.0.11.tgz#2789c0042d7e796dcbb840c7a9b5d2bcd8e0e2d8"
@@ -795,11 +781,6 @@
   dependencies:
     emittery "^0.4.1"
     ora "^3.4.0"
-
-"@truffle/expect@^0.0.15":
-  version "0.0.15"
-  resolved "https://registry.yarnpkg.com/@truffle/expect/-/expect-0.0.15.tgz#293b773680d3e088b8c102480df55907234db533"
-  integrity sha512-hrIbDRsaEoIkapvY2unw8W5b5qfkz3A3ayxUVxfdPlnevdDUVmvfqfYJrJOSdtbIucwDIhU74VaBPKyiqoTJOw==
 
 "@truffle/interface-adapter@^0.4.18":
   version "0.4.18"
@@ -3102,7 +3083,7 @@ elliptic@6.5.3, elliptic@^6.4.0, elliptic@^6.5.2, elliptic@^6.5.3:
     minimalistic-assert "^1.0.0"
     minimalistic-crypto-utils "^1.0.0"
 
-emittery@^0.4.0, emittery@^0.4.1:
+emittery@^0.4.1:
   version "0.4.1"
   resolved "https://registry.yarnpkg.com/emittery/-/emittery-0.4.1.tgz#abe9d3297389ba424ac87e53d1c701962ce7433d"
   integrity sha512-r4eRSeStEGf6M5SKdrQhhLK5bOwOBxQhIE3YSTnZE3GpKiLfnnhE+tPtrJE79+eDJgm39BM6LSoI8SCx4HbwlQ==
