@@ -6,6 +6,6 @@ module.exports = async function(deployer, network, accounts) {
   const DefaultDAOInterface = artifacts.require("DefaultDAOInterface");
   const dao = deployer; // FIXME: Add owner DAO.
   await deployProxy(DefaultDAOInterface, [], { deployer: dao });
-  const science = await myDeploy(deployer, network, accounts, "BaseLock", `urn:uuid:${uuid}`);
+  const science = await myDeploy(deployer, network, accounts, "BaseLock");
   await science.createOracle({ from: dao });
 };
