@@ -9,8 +9,6 @@
     "truffle": "^5.1.58"
   },
   "devDependencies": {
-    "@vporton/wrap-tokens": "git+ssh://git@github.com/vporton/wrap-tokens.git#v3.1.0",
-    "chai": "^4.2.0",
     "ethereum-waffle": "^3.0.0",
     "ethers": "^5.0.0"
   }
