@@ -7,23 +7,5 @@ module.exports = async function(deployer, network, accounts) {
   const dao = deployer; // FIXME: Add owner DAO.
   await deployProxy(DefaultDAOInterface, [], { deployer: dao });
   const science = await myDeploy(deployer, network, accounts, "BaseLock", `urn:uuid:${uuid}`);
-  ({ logs } = await science.createOracle({ from: dao }));
-  const oracleId = logs[0].args.oracleId;
-
-  // TODO: duplicate code
-  {
-    const addressesFileName = `frontend/public/addresses.json`;
-    let json;
-    try {
-        const text = fs.readFileSync(addressesFileName);
-        json = JSON.parse(text);
-    }
-    catch(_) {
-        json = {};  
-    }
-    updateAddress(json, network, 'data', {
-        scienceOracleId: oracleId,
-    });
-    fs.writeFileSync(addressesFileName, JSON.stringify(json));
-  }
+  await science.createOracle({ from: dao });
 };
